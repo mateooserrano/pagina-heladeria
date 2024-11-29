@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: linear-gradient(rgb(111, 190, 0),#19a3c6);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cont{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+     
+}
+#izq, #der{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 25%;
+}
+#caja{
+    width: 80%;
+    height: 100%;
+    float: left;
+    margin-top: 5%;
+    
+}
+#der a, #izq a{
+    text-decoration: none;
+    color: rgb(111, 190, 0);
+    font-size: 80px;
+}    
+#der a:hover,#izq a:hover{
+    color: #19a3c6;
+
+}    
+
+.foto_m{
+    width: 100%;
+
+}

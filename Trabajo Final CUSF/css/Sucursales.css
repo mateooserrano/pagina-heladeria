@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background: linear-gradient(rgb(111, 190, 0),#19a3c6);
+}
+#contenedor{
+    width:1000px ;
+    height: 1015px ;
+    background: #000;
+    margin:auto;
+    margin-top: 10px;
+}
+header{
+    width: 1000px;
+    height: 200px;
+    background: #f00;
+    background: url("../imagenes/helados5.jpg") no-repeat;
+    background-size:cover;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav{
+    width: 1000px;
+    height: 50px;
+    background: #000;
+}
+main{
+    width: 1000px;
+    height: 600px;
+    background: rgb(255, 255, 255);
+    
+}
+footer{
+    width: 1000px;
+    background: #000;
+}
+.pingu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(170, 238, 74);
+    text-shadow: 5px 2px 7px black;
+    font-variant:small-caps;
+}
+.helado{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color:#fff;
+    text-shadow: 5px 2px 7px black;
+    font-variant: small-caps;
+}
+.pinguino{
+    width: 100px;
+    margin-left: 100px;
+}
+.social1{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    margin-right: 10px;
+}
+.social2{
+    width: 40px;
+    float: right;
+    position:relative;
+    left: 50px;
+    margin-right: 10px; 
+}
+.social3{
+    width: 37px;
+    position:relative;
+    float: right;
+    top: 60px;
+    left: 90px;
+}
+header a img{
+    border-radius: 15px;
+}
+header a img:hover{
+    box-shadow: 1px 1px 10px rgb(170, 238, 74);
+}
+
+/* menu de la pagina*/
+
+#menu{
+    width: 200px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+}
+#menu li{
+    width: 150px;
+    background: rgb(0, 0, 0);
+    margin: 15px 5px;
+    border: 1px solid #000;
+
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+#menu li a:hover{
+    background: rgb(170, 238, 74);
+    transition: .5s;
+    border-radius: 7px;
+}
+
+/* Diseño del main */
+
+#box1{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:100px 15px;
+    width: 500px;
+    height: 300px;
+}   
+#box1 h2,#box2 h2{
+    margin: 3px 0px
+}
+.text1,.text2{
+    margin:20px 0px;
+}
+#box1 hr,#box2 hr{
+    width: 400px;
+}
+.mapa1,.mapa2{
+    width: 400px;
+    border: 1px solid #19a3c6;
+}
+#box2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:100px
+}
+
+
+
+/* Diseño del footer*/
+
+footer{
+    height: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff
+}
+footer h5{
+    margin: 15px 0px 5px 15px;
+}
+footer hr{
+    margin-left: 15px;
+    width: 220px;
+}
+footer p{
+    font-size: small;
+    margin: 5px 0px 0px 15px;
+}
